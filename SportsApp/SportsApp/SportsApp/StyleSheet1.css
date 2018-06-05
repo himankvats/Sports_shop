@@ -1,0 +1,57 @@
+﻿html, body {
+    height : 100%;
+    margin : 0;
+    max-width: 100%;
+ 
+}
+#main
+{
+    min-height : 100%;
+    margin-top:20px;
+    margin-bottom : -60px;
+    display: flex;
+}
+
+.push , .footer
+{
+    height:60px;
+}
+header
+{
+height :300px;
+
+}
+footer
+{
+background-image:url("Images/bkImage.jpg");
+
+}
+.header_top
+{
+    background-image:url(Images/Background.png);
+    background-size: 100% 250px ;
+    height:250px;
+    font-family :'Bernard MT';
+   
+}
+.header_bottom
+{
+    height:80px;
+    background-color:#406753;
+    border-top:solid;
+    border-bottom:solid;
+    border-bottom-color:#406753;
+    border-top-color:#406753;
+}
+#Left_content
+{
+    width:20%;
+    display:inline;
+    margin-bottom:40px;
+}
+#right_content
+{
+   width:80%;
+   display:inline;
+    margin-bottom:80px;
+}
